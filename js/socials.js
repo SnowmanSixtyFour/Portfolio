@@ -35,7 +35,7 @@ aboutButton.href = "./";
 // Projects
 var projectsButton = document.createElement('a');
 projectsButton.innerHTML = "Projects   ";
-projectsButton.href = "./";
+projectsButton.href = "./projects";
 
 // Social Media
 var socialsButton = document.createElement('a');
@@ -47,7 +47,7 @@ var contactsButton = document.createElement('a');
 contactsButton.innerHTML =
 `Contacts
  `;
-contactsButton.href = "./";
+contactsButton.href = "./contacts";
 
 // Header
 var header = document.createElement('p');
