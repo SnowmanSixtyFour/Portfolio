@@ -149,7 +149,9 @@ document.addEventListener('keydown', function(event)
             currentPage.innerHTML = page0; // Display About Me Text
             currentPage.style.color = "white"; // Set Colour to White
         }
+		if (option.value === "1") window.location.href = "./projects";
         if (option.value === "2") window.location.href = "./socials";
+		if (option.value === "3") window.location.href = "./contacts";
 
         // Reset Option
         option.value = "";
