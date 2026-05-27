@@ -1,11 +1,11 @@
 <div align="center">
 <a href="https://www.chrisryczke.com/">
-  <img align="center" src="img/logo.png" alt="CHRIS RYCZKE">
+  <img align="center" src="repo/logo.png" alt="CHRIS RYCZKE">
 </a>
 </div>
 <br>
 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-  <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" width="100" alt="GNU General Public License v3.0">
+  <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" width="100" alt="GNU General Public License v3.0"> <img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" width="100" alt="React">
 </a>
 
 Hello! If you're here, that means you're viewing the source code of my portfolio.
@@ -13,12 +13,16 @@ Hello! If you're here, that means you're viewing the source code of my portfolio
 ## Website
 The website is hosted under https://www.chrisryczke.com, where you can view the front-end side of my portfolio.
 
-## Code
-To see the home page, view [index.js](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/js/index.js).
+## Compiling
 
-For the rest of the files, view all of the [scripts](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/tree/main/js).
+This portfolio was made with [Node.js](https://nodejs.org) and [React](https://react.dev/).
 
-### Special Thanks
+### Setup
+To install Node.js, first run: `npm install`.
+
+Then, to test the website, run: `npm run dev` to run it locally on your browser.
+
+## Special Thanks
 BigBlue Terminal Font - [VileR](https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/)
 
 # Copyright
