@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import NavBar from './components/NavBar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div>
+      <NavBar/>
       <p className="separator"/>
       {header}
       <p className="separator"/>
