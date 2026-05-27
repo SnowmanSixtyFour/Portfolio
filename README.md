@@ -4,16 +4,8 @@
 </a>
 </div>
 <br>
-<a href="https://react.dev/">
-  <img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" width="100" alt="React">
-</a> 
-<a href="https://nodejs.org/">
-  <img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" width="100" alt="Node.js">
-</a> 
-<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-  <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" width="100" alt="GNU General Public License v3.0">
-</a>
-
+<a href="https://react.dev/"><img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" width="120" height="28" alt="React"></a><a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" width="120" height="28" alt="Node.js"></a><a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" width="120" height="28" alt="GNU GPL v3"></a>
+<br>
 Hello! If you're here, that means you're viewing the source code of my portfolio.
 
 ## Website
