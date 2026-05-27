@@ -6,10 +6,10 @@
 <br>
 <a href="https://react.dev/">
   <img src="https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB" width="100" alt="React">
-</a>
+</a> 
 <a href="https://nodejs.org/">
   <img src="https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white" width="100" alt="Node.js">
-</a>
+</a> 
 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
   <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" width="100" alt="GNU General Public License v3.0">
 </a>
