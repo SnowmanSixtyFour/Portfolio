@@ -8,10 +8,6 @@
 
   user-select: none; /* Disable Text Selecting */
 
-  /* Size */
-  width: min-content;
-  scale: 1.0;
-
   /* Fit Elements on Screen */
   margin: auto;
   display: flex;
