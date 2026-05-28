@@ -6,8 +6,7 @@ function Contacts() {
 
   return (
     <div>
-      <NavBar/>
-      <p className="separator"/>
+      {/* TODO: Contacts */}
     </div>
   )
 }

@@ -6,8 +6,7 @@ function Projects() {
 
   return (
     <div>
-      <NavBar/>
-      <p className="separator"/>
+      {/* TODO: Projects */}
     </div>
   )
 }

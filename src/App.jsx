@@ -15,12 +15,15 @@ function App() {
   return (
     <Router>
       <div>
+        <NavBar/>
+        <p className="separator"/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/socials" element={<Socials />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
+        <p>&copy; 2026 Chris Ryczke</p>
       </div>
     </Router>
   )

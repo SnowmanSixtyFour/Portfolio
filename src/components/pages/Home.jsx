@@ -17,8 +17,6 @@ function Home() {
 
   return (
     <div>
-      <NavBar/>
-      <p className="separator"/>
       {header}
       <p className="separator"/>
     </div>
