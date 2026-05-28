@@ -1,27 +1,28 @@
 import { useState } from 'react'
 import NavBar from './components/NavBar';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Pages
+import Home from './components/pages/Home';
+import Projects from './components/pages/projects';
+import Socials from './components/pages/socials';
+import Contacts from './components/pages/contacts';
+
 function App() {
   const [count, setCount] = useState(0)
 
-  // --- Variables ---
-
-  // Strings
-
-  let header =
-  `   CCC  H   H RRRR  III  SSSS       RRRR  Y   Y  CCC  ZZZZZ K   K EEEEE
-  C   C H   H R   R  I  S           R   R  Y Y  C   C    Z  K  K  E    
-  C     HHHHH RRRR   I   SSS        RRRR    Y   C       Z   KKK   EEEE 
-  C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E    
-   CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`;
-
   return (
-    <div>
-      <NavBar/>
-      <p className="separator"/>
-      {header}
-      <p className="separator"/>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/socials" element={<Socials />} />
+          <Route path="/contacts" element={<Contacts />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 
