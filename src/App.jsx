@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import NavBar from './components/NavBar';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -10,7 +10,23 @@ import Socials from './components/pages/socials';
 import Contacts from './components/pages/contacts';
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      
+      /* Go to Home */
+      if (event.key === 'F3') {
+        event.preventDefault();
+        
+        window.location.href = "./";
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
 
   return (
     <Router>
@@ -23,6 +39,10 @@ function App() {
           <Route path="/socials" element={<Socials />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
+        <ul className="optionsList">
+          <li className="optionsList">F3=Exit</li>
+        </ul>
+        <br/>
         <p>&copy; 2026 Chris Ryczke</p>
       </div>
     </Router>

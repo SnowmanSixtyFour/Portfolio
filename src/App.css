@@ -19,7 +19,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  height: 1.5rem;
+  height: 1.5rem;   
 
   scrollbar-width: none; /* Hide Scroll Bar */
 
@@ -58,12 +58,4 @@ input {
 
   /* Spacing between Text */
   margin-left: 15px;
-}
-
-.choice {
-  color: aqua;
-}
-
-.subtitle {
-  color: lime;
 }

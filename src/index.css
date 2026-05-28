@@ -67,11 +67,17 @@
 
 body {
   margin: 0;
+
+  /* Size of Website Content */
+  width: 840px;
 }
 
 p {
   font-family: "terminal";
   margin: 0;
+
+  /* Make lines break on reaching end of width */
+  white-space: pre-wrap;
 }
 
 code,
@@ -87,6 +93,11 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
 }
 
 /* Objects */
@@ -105,4 +116,59 @@ code {
   height: 1px;
   background-color: cornflowerblue;
   margin: 10px;
+}
+
+.optionBar {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  white-space: nowrap;
+  font-family: "terminal";
+  margin: auto;
+
+  /* Color */
+  border-bottom: 1px solid cyan;
+
+  /* Spacing between Text */
+  margin-left: 15px;
+
+  /* Width */
+  width: 80%;
+}
+
+/* Text */
+
+.blue {
+  color: aqua;
+}
+
+.darkblue {
+  color: cornflowerblue;
+}
+
+.green {
+  color: lime;
+}
+
+/* Lists */
+ul {
+  display: inline-block; /* Center List */
+  list-style: none; /* Hide List Bullets */
+
+  text-align: left; /* Align Text to left */
+}
+
+ul.optionsList {
+  color: cornflowerblue;
+
+  /* Prevent Line Breaks */
+  
+  display: flex;
+  justify-content: center;
+}
+
+li.optionsList {
+  margin: auto;
 }

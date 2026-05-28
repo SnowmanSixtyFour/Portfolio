@@ -19,6 +19,14 @@ function Socials() {
     <div>
       {header}
       <p className="separator"/>
+      <p>Snowman64 is my gaming-centered YouTube channel and online persona.</p>
+      <br/>
+      <p>I had begun professionally working on it after my first <a href="https://www.youtube.com/watch?v=9ANnCBZbtYg">Minecraft video</a> released.</p>
+      <br/>
+      <p>Since then, I've made hundreds of videos, gained over 15K subscribers, and had a lot of fun gaming and connecting with my audience.</p>
+      <br/>
+      <p>Fun fact; Snowman64 is the name of both my online persona AND my GitHub account!</p>
+      <p className="separator"/>
     </div>
   )
 }
