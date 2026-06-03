@@ -1,13 +1,11 @@
 {
   "name": "chrisryczke",
-  "version": "0.0.0",
+  "version": "3.0.0",
   "homepage": "https://www.chrisryczke.com",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

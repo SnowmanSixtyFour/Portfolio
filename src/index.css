@@ -42,7 +42,7 @@
 
 @font-face { 
   font-family: "terminal";
-  src: local("BigBlue TerminalPlus"), url('src/assets/terminal.ttf');
+  src: local("BigBlue TerminalPlus"), url('./assets/terminal.ttf');
 }
 
 @media (prefers-color-scheme: dark) {
