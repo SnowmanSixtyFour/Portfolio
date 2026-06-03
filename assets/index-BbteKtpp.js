@@ -12,7 +12,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
   C   C H   H R   R  I  S           R   R  Y Y  C   C    Z  K  K  E    
   C     HHHHH RRRR   I   SSS        RRRR    Y   C       Z   KKK   EEEE 
   C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E    
-   CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`,(0,b.jsx)(`p`,{className:`separator`}),(0,b.jsx)(`p`,{className:`green`,children:`Software Engineer`}),i,(0,b.jsxs)(`p`,{className:`green`,children:[`Option ===>`,` `,(0,b.jsx)(`input`,{value:n,onChange:e=>r(e.target.value),className:`optionBar`})]})]})}function Qn(){let[e,t]=(0,_.useState)(0);return(0,b.jsx)(`div`,{})}function $n(){let[e,t]=(0,_.useState)(0);return(0,_.useEffect)(()=>{document.title=`CHRIS "SNOWMAN64" RYCZKE`},[]),(0,b.jsxs)(`div`,{children:[`  SSSSSSS NN   NN OOOOOOO WW      WW MM    MM AAAAAAA NN   NN 6666666 44  44   
+   CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`,(0,b.jsx)(`p`,{className:`separator`}),(0,b.jsx)(`p`,{className:`green`,children:`Software Engineer`}),i,(0,b.jsxs)(`p`,{className:`green`,children:[`Option ===>`,` `,(0,b.jsx)(`input`,{value:n,onChange:e=>r(e.target.value),className:`optionBar`})]})]})}function Qn(){let[e,t]=(0,_.useState)(0);return(0,b.jsx)(`div`,{})}function $n(){let[e,t]=(0,_.useState)(0);return(0,b.jsxs)(`div`,{children:[`  SSSSSSS NN   NN OOOOOOO WW      WW MM    MM AAAAAAA NN   NN 6666666 44  44   
   SS      NNN  NN OO   OO WW      WW MMM  MMM AA   AA NNN  NN 66      44  44   
   SSSSSSS NN N NN OO   OO WW  WW  WW MM MM MM AA   AA NN N NN 6666666 44  44   
        SS NN  NNN OO   OO WW WWWW WW MM    MM AAAAAAA NN  NNN 66   66 44444444 
