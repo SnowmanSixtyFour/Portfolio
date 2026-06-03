@@ -1,0 +1,61 @@
+/* Font */
+@font-face { 
+  font-family: "terminal";
+  src: local("BigBlue TerminalPlus"), url('terminal.ttf');
+}
+
+/* Document */
+body {
+  /* Properties */
+
+  user-select: none; /* Disable Text Selecting */
+
+  /* Size */
+  width: min-content;
+  scale: 1.0;
+
+  /* Fit Elements on Screen */
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 1.5rem;   
+
+  scrollbar-width: none; /* Hide Scroll Bar */
+
+  /* Style */
+
+  background-color: black; /* Background Color */
+  color: white; /* Text Colour */
+
+  text-align: center; /* Align Text to Center */
+  white-space: pre-wrap; /* Allow Multiple Lines in Text */
+
+  font-family: terminal; /* Terminal Font */
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  white-space: nowrap;
+  font-family: "terminal";
+
+  /* Color */
+  border-bottom: 1px solid cyan;
+
+  /* Spacing between Text */
+  margin-left: 15px;
+}
