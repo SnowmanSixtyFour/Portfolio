@@ -1,5 +1,5 @@
 {
-  "name": "chrisryczke",
+  "name": "ChrisRyczke",
   "version": "3.0.0",
   "homepage": "https://www.chrisryczke.com",
   "private": false,
@@ -8,13 +8,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+	"predeploy": "npm run build",
+    "deploy": "gh-pages -d src"
   },
   "dependencies": {
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.15.1"
   },
+  "author": "Chris Ryczke",
+  "license": "GNU GPL v3.0",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
