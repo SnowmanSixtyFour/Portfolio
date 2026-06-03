@@ -10,8 +10,7 @@ export default defineConfig({
     },
   },
   build: {
-    manifest: true,
-    rolldownOptions: {
+    rollupOptions: {
       input: '/src/main.jsx',
     },
   },
