@@ -1,12 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import NavBar from '../NavBar';
 
 function Socials() {
   const [count, setCount] = useState(0)
-
-  useEffect(() => {
-    document.title = "CHRIS \"SNOWMAN64\" RYCZKE";
-  }, []);
 
   // --- Variables ---
 
