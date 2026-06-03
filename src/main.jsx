@@ -3,6 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const redirect = sessionStorage.getItem("redirect");
 
-root.render(<App />);
+if (redirect) {
+  sessionStorage.removeItem("redirect");
+  window.history.replaceState(null, "", redirect);
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <App />
+);

@@ -17,7 +17,7 @@ function App() {
       if (event.key === 'F3') {
         event.preventDefault();
         
-        window.location.href = "./";
+        window.location.href = "/";
       }
     };
 

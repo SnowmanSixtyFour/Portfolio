@@ -9,9 +9,4 @@ export default defineConfig({
       origin: 'https://www.chrisryczke.com',
     },
   },
-  build: {
-    rollupOptions: {
-      input: '/src/main.jsx',
-    },
-  },
 })
