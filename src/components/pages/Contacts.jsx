@@ -6,7 +6,7 @@ function Contacts() {
 
   return (
     <div>
-      {/* TODO: Contacts */}
+      <p>Contacts</p>
     </div>
   )
 }
