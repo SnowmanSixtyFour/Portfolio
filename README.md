@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://www.chrisryczke.com/">
-  <img align="center" src="repo/logo.png" alt="CHRIS RYCZKE">
+  <img align="center" src="Repository/logo.png" alt="CHRIS RYCZKE">
 </a>
 </div>
 <br>
