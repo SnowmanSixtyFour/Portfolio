@@ -118,6 +118,12 @@ a {
   margin: 10px;
 }
 
+.skills {
+  color: mediumseagreen;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
 .optionBar {
   border: none;
   background: none;
@@ -150,6 +156,10 @@ a {
 
 .green {
   color: lime;
+}
+
+.darkgreen {
+  color: seagreen;
 }
 
 /* Lists */
