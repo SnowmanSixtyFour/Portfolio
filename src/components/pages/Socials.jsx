@@ -26,6 +26,8 @@ function Socials() {
       <p>Since then, I've made hundreds of videos, gained over 15K subscribers, and had a lot of fun gaming and connecting with my audience.</p>
       <br/>
       <p>Fun fact; Snowman64 is the name of both my online persona AND my GitHub account!</p>
+      <br/>
+      <a href="https://snowman64.com">Find out more on my website!</a>
       <p className="separator"/>
     </div>
   )
