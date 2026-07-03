@@ -152,8 +152,14 @@ a {
   color: lime;
 }
 
-.darkgreen {
-  color: seagreen;
+.skillTitle {
+  color: aqua;
+}
+
+.skills {
+  color: lime;
+  margin: 10px;
+  padding: 5px 10px;
 }
 
 .smaller {
@@ -180,10 +186,4 @@ ul.optionsList {
 
 li.optionsList {
   margin: auto;
-}
-
-.skills {
-  color: mediumseagreen;
-  margin: 10px;
-  padding: 5px 10px;
 }
