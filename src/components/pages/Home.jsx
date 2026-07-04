@@ -16,9 +16,10 @@ function Home() {
   let choices =
   <ul>
     <li>0 <span className="blue">About Me</span></li>
-    <li>1 <span className="blue">Projects</span></li>
-    <li>2 <span className="blue">Social Media</span></li>
-    <li>3 <span className="blue">Contacts</span></li>
+    <li>1 <span className="blue">Skills</span></li>
+    <li>2 <span className="blue">Projects</span></li>
+    <li>3 <span className="blue">Social Media</span></li>
+    <li>4 <span className="blue">Contacts</span></li>
   </ul>;
 
   let newAboutMe =
@@ -31,6 +32,54 @@ function Home() {
   <br/><br/>
   I am still building my skills, currently studying IBM Mainframe and the COBOL language, using the TN 3270 terminal.
   <br/><br/></p>;
+
+  let skills =
+  <p>
+    <p><br/><span className="blue">Skills</span></p>
+    <br/>
+    <p className="skillTitle">Computer Programming</p>
+    <ul className="skills">
+      <li>C#</li>
+      <li>Java</li>
+      <li>Python</li>
+    </ul>
+    <ul className="skills">
+      <li>.NET</li>
+      <li>XNA</li>
+      <li>MonoGame</li>
+    </ul>
+    <p className="skillTitle">Web Development</p>
+    <ul className="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Git</li>
+      <li>PHP</li>
+    </ul>
+    <ul className="skills">
+      <li>JavaScript</li>
+      <li>Node.js</li>
+      <li>React</li>
+      <li>Apache</li>
+    </ul>
+    <p className="skillTitle">Databases</p>
+    <ul className="skills">
+      <li>SQL Server</li>
+      <li>PostgreSQL</li>
+    </ul>
+    <ul className="skills">
+      <li>pgAdmin</li>
+      <li>WinSCP</li>
+    </ul>
+    <p className="skillTitle">Mainframe</p>
+    <ul className="skills">
+      <li>COBOL</li>
+      <li>JCL</li>
+    </ul>
+    <ul className="skills">
+      <li>IBM 3270</li>
+      <li>Zowe Explorer</li>
+    </ul>
+  </p>
 
   // Set Functions
 
@@ -45,9 +94,10 @@ function Home() {
           event.preventDefault();
 
           if (option === '0') setAboutMe(newAboutMe);
-          else if (option === '1') window.location.href = "./projects";
-          else if (option === '2') window.location.href = "./socials";
-          else if (option === '3') window.location.href = "./contacts";
+          else if (option === '1') setAboutMe(skills);
+          else if (option === '2') window.location.href = "./projects";
+          else if (option === '3') window.location.href = "./socials";
+          else if (option === '4') window.location.href = "./contacts";
         }
       };
   
