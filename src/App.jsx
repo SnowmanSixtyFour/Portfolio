@@ -4,8 +4,9 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Pages
-import Home from './components/pages/Home';
+import Home from './components/Pages/home';
 import Projects from './components/pages/projects';
+import OlderProjects from './components/pages/OlderProjects';
 import Socials from './components/pages/socials';
 import Contacts from './components/pages/contacts';
 
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/old" element={<OlderProjects />} />
           <Route path="/socials" element={<Socials />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
