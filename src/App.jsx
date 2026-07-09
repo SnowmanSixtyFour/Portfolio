@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import NavBar from './components/NavBar';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 // Pages
 import Home from './components/Pages/home';
@@ -40,6 +40,7 @@ function App() {
           <Route path="/projects/old" element={<OlderProjects />} />
           <Route path="/socials" element={<Socials />} />
           <Route path="/contacts" element={<Contacts />} />
+		      <Route path="*" element={<Navigate to='/' replace />} />
         </Routes>
         <ul className="optionsList">
           <li className="optionsList">F3=Exit</li>
