@@ -1,0 +1,11 @@
+{
+    "project":
+    [
+        {
+            "id": "portfolio",
+            "name": "My Portfolio",
+            "description": "The portfolio you're browsing now was developed by me!",
+            "smallerDescription": "Not an ounce of the portfolio was made with a website designer. I have full control over the code."
+        }
+    ]
+}
