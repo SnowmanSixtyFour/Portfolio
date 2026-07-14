@@ -1,11 +1,6 @@
 import { useState } from 'react'
-import NavBar from '../NavBar';
 
 function Socials() {
-  const [count, setCount] = useState(0)
-
-  // --- Variables ---
-
   // Strings
 
   let header =

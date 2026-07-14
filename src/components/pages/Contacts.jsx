@@ -1,10 +1,7 @@
 import { useState } from 'react'
-import NavBar from '../NavBar';
 import Resume from "../../../src/assets/ChrisRyczkeResume.pdf";
 
 function Contacts() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
       <p>Contacts</p>
