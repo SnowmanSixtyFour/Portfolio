@@ -12,7 +12,7 @@ function Projects() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const res = await fetch('./src/components/data/projects.json');
+        const res = await fetch('./data/projects.json');
         if (!res.ok) throw new Error('Failed to load projects!');
 
         const projectData = await res.json();
