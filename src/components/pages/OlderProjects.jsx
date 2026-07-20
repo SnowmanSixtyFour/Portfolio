@@ -12,7 +12,7 @@ function OlderProjects() {
   useEffect(() => {
     const fetchOldProjects = async () => {
       try {
-        const oldRes = await fetch('./data/oldprojects.json');
+        const oldRes = await fetch('/data/oldprojects.json');
         if (!oldRes.ok) throw new Error('Failed to load projects!');
 
         const oldProjectData = await oldRes.json();
