@@ -4,7 +4,7 @@
         {
             "id": "bluebird64",
             "name": "Blue Bird 64",
-            "image": "../../../src/assets/img/bluebird64.jpg",
+            "image": "/img/bluebird64.jpg",
             "link": "https://snowman64.itch.io/bluebird64",
             "desc": "Blue Bird 64 is an open-source game made in 2 days with Unity.",
             "smallDesc": "Windows, Mac and Linux builds are available on Game Jolt and itch.io.",
@@ -16,7 +16,7 @@
         {
             "id": "bluebird64x2",
             "name": "Blue Bird 64 x2",
-            "image": "../../../src/assets/img/bluebird64x2.jpg",
+            "image": "/img/bluebird64x2.jpg",
             "link": "https://snowman64.itch.io/bluebird64-x2",
             "desc": "Blue Bird 64 x2 is an online Unity multiplayer game made in 7 days.",
             "smallDesc": "Features lobbies up to 8 players big, and a quick play button.",
@@ -27,7 +27,7 @@
         {
             "id": "betweenthelines",
             "name": "Between the Lines",
-            "image": "../../../src/assets/img/betweenthelines.jpg",
+            "image": "/img/betweenthelines.jpg",
             "link": "https://snowman64.itch.io/between-the-lines",
             "desc": "Between the Lines is an indie game made for Mystery Game Jam 2026.",
             "smallDesc": "Originally developed from April 7, 2026 - May 5, 2026.",
