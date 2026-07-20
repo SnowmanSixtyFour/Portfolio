@@ -1,0 +1,14 @@
+{
+    "project":
+    [
+        {
+            "id": "portfolio",
+            "name": "My Portfolio",
+            "image": "../../../src/assets/img/portfolio.jpg",
+            "link": "https://www.chrisryczke.com",
+            "desc": "The portfolio you're browsing now was developed by me!",
+            "smallDesc": "Not an ounce of the portfolio was made with a website designer. I have full control over the code.",
+            "github": "https://github.com/SnowmanSixtyFour/Portfolio"
+        }
+    ]
+}
