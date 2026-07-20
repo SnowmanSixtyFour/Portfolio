@@ -140,6 +140,10 @@ a {
 
 /* Text */
 
+p {
+  color: white;
+}
+
 .blue {
   color: aqua;
 }
