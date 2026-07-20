@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from "react-router-dom";
 
 // Images
 import GitHub from "../../../src/assets/img/github_button.webp";
@@ -46,7 +47,7 @@ function OlderProjects() {
       }
       </div>
       <br/>
-      <a href="/projects">Go back to Projects</a>
+      <Link className="navButton" to="/projects">Go back to Projects</Link>
       <p/><br/>
       <p className="separator"/>
     </div>
