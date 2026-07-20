@@ -36,7 +36,7 @@ function AppContent() {
         <Route path="/projects/old" element={<OlderProjects />} />
         <Route path="/socials" element={<Socials />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
       <ul className="optionsList">
