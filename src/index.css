@@ -103,12 +103,11 @@ a {
 /* Objects */
 
 .navButton {
-  color: var(--text);
-  text-decoration: none;
-  margin: 0 10px;
-  padding: 5px 10px;
-  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
   color: cornflowerblue;
+  word-wrap: break-word;
 }
 
 .separator {
@@ -138,7 +137,19 @@ a {
   width: 80%;
 }
 
+/* Images */
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 /* Text */
+
+p {
+  color: white;
+}
 
 .blue {
   color: aqua;
@@ -167,20 +178,16 @@ a {
 }
 
 /* Lists */
+
 ul {
   display: inline-block; /* Center List */
   list-style: none; /* Hide List Bullets */
-
-  text-align: left; /* Align Text to left */
 }
 
 ul.optionsList {
   color: cornflowerblue;
 
-  /* Prevent Line Breaks */
-  
-  display: flex;
-  justify-content: center;
+  word-wrap: break-word;
 }
 
 li.optionsList {

@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
 
+// Images
+import Logo from '/img/logo.png';
+
 function Home() {
   // Strings
 
@@ -109,7 +112,7 @@ function Home() {
 
   return (
     <div>
-      {header}
+      <img src={Logo} alt="CHRIS RYCZKE" />
       <p className="separator"/>
       <p className="green">Software Engineer</p>
       {aboutMe}
