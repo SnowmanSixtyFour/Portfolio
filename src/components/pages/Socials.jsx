@@ -1,5 +1,8 @@
 import { useState } from 'react'
 
+// Images
+import Snowman64 from '/img/snowman64.png';
+
 function Socials() {
   // Strings
 
@@ -12,7 +15,7 @@ function Socials() {
 
   return (
     <div>
-      {header}
+      <img src={Snowman64} alt="SNOWMAN64" />
       <p className="separator"/>
       <p>Snowman64 is my gaming-centered YouTube channel and online persona.</p>
       <br/>
