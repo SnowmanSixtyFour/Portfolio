@@ -1,31 +1,15 @@
+@font-face { 
+  font-family: "terminal";
+  src: local("BigBlue TerminalPlus"), url('./assets/terminal.ttf');
+}
+
 :root {
-  user-select: none; /* Disable Text Selecting */
-
-  text-align: center; /* Align Text to Center */
-  white-space: pre; /* Allow Multiple Lines in Text */
-
   font-family: terminal; /* Terminal Font */
-
   user-select: none; /* Disable Text Selecting */
 
-  /* Fit Elements on Screen */
-  margin: auto;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  height: 1.5rem;
-
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #000000;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --text: white;
+  --text-h: white;
+  --bg: black;
 
   letter-spacing: 0.18px;
   color-scheme: light dark;
@@ -40,24 +24,13 @@
   }
 }
 
-@font-face { 
-  font-family: "terminal";
-  src: local("BigBlue TerminalPlus"), url('./assets/terminal.ttf');
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #ffffff;
-    --text-h: #f3f4f6;
-    --bg: #000000;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+    --text: white;
+    --text-h: white;
+    --bg: black;
   }
 
   #social .button-icon {
@@ -67,18 +40,27 @@
 
 body {
   margin: 0;
+}
 
-  /* Size of Website Content */
-  width: 840px;
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 p {
   color: white;
   font-family: "terminal";
   margin: 0;
-
-  /* Make lines break on reaching end of width */
-  white-space: pre-wrap;
 }
 
 code,
@@ -104,7 +86,7 @@ a {
 /* Objects */
 
 .navButton {
-  padding: 10px;
+  padding: 1em;
   position: relative;
   text-align: center;
   color: cornflowerblue;
