@@ -6,6 +6,7 @@ import GitHub from "../../../src/assets/img/github_button.webp";
 import ItchIo from "../../../src/assets/img/itchio_button.webp";
 import GameJolt from "../../../src/assets/img/gamejolt_button.webp";
 import Newgrounds from "../../../src/assets/img/newgrounds_button.webp";
+import Steam from "../../../src/assets/img/steam_button.webp";
 
 function OlderProjects() {
   const [oldprojects, setOldProjects] = useState([]);
