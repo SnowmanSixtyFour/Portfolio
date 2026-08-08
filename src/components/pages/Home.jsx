@@ -100,6 +100,7 @@ function Home() {
           else if (option === '2') window.location.href = "./projects";
           else if (option === '3') window.location.href = "./socials";
           else if (option === '4') window.location.href = "./contacts";
+          else if (option === '') setAboutMe(choices);
         }
       };
   
