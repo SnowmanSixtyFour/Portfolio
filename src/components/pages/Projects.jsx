@@ -34,7 +34,7 @@ function Projects() {
       {
         projects.map((project) => (
           <div key={project.id}>
-              <h2>{project.name}</h2>
+              <h2>{project.name} {project.releasedate && (<span>({project.releasedate})</span>)}</h2>
               <a href={project.link} target="_blank"> <img src={project.image} alt={project.name}/></a>
               <p>{project.desc}</p>
               <p className="smaller">{project.smallDesc}</p>

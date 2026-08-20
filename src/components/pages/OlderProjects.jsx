@@ -35,11 +35,11 @@ function OlderProjects() {
       {
         oldprojects.map((old) => (
           <div key={old.id}>
-              <h2>{old.name}</h2>
+              <h2>{old.name} {old.releasedate && (<span>({old.releasedate})</span>)}</h2>
               <a href={old.link} target="_blank"> <img src={old.image} alt={old.name}/></a>
               <p>{old.desc}</p>
               <p className="smaller">{old.smallDesc}</p>
-              {project.steam && (<a href={project.steam} target="_blank"><img src={Steam} width="40" height="40" alt="Steam Page" title="Steam Page"/></a>)}
+              {old.steam && (<a href={old.steam} target="_blank"><img src={Steam} width="40" height="40" alt="Steam Page" title="Steam Page"/></a>)}
               {old.github && (<a href={old.github} target="_blank"><img src={GitHub} width="40" height="40" alt="GitHub Repository" title="GitHub Repository"/></a>)}
               {old.itchio && (<a href={old.itchio} target="_blank"><img src={ItchIo} width="40" height="40" alt="itch.io Page" title="itch.io Page"/></a>)}
               {old.gamejolt && (<a href={old.gamejolt} target="_blank"><img src={GameJolt} width="40" height="40" alt="Game Jolt Page" title="Game Jolt Page"/></a>)}
