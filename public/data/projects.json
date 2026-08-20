@@ -2,6 +2,18 @@
     "project":
     [
         {
+            "id": "escapeaway",
+            "name": "ESCAPEAWAY!",
+            "image": "/img/projects/escapeaway.jpg",
+            "link": "https://store.steampowered.com/app/5143520/ESCAPEAWAY/",
+            "desc": "Put your quick reflexes to the test with ESCAPEAWAY!",
+            "smallDesc": "An endless runner and platformer with a retro aesthetic.",
+            "github": "https://github.com/SnowmanSixtyFour/Escapeaway",
+            "itchio": "https://snowman64.itch.io/escapeaway",
+            "gamejolt": "https://gamejolt.com/games/escapeaway/1090448",
+            "steam": "https://store.steampowered.com/app/5143520/ESCAPEAWAY/"
+        },
+        {
             "id": "portfolio",
             "name": "My Portfolio",
             "image": "/img/projects/portfolio.jpg",

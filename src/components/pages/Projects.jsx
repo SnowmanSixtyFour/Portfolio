@@ -38,6 +38,7 @@ function Projects() {
               <a href={project.link} target="_blank"> <img src={project.image} alt={project.name}/></a>
               <p>{project.desc}</p>
               <p className="smaller">{project.smallDesc}</p>
+              {project.steam && (<a href={project.steam} target="_blank"><img src={Steam} width="40" height="40" alt="Steam Page" title="Steam Page"/></a>)}
               {project.github && (<a href={project.github} target="_blank"><img src={GitHub} width="40" height="40" alt="GitHub Repository" title="GitHub Repository"/></a>)}
               {project.itchio && (<a href={project.itchio} target="_blank"><img src={ItchIo} width="40" height="40" alt="itch.io Page" title="itch.io Page"/></a>)}
               {project.gamejolt && (<a href={project.gamejolt} target="_blank"><img src={GameJolt} width="40" height="40" alt="Game Jolt Page" title="Game Jolt Page"/></a>)}
