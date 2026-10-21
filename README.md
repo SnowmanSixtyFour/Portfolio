@@ -11,14 +11,18 @@ Welcome to the source code of my portfolio. Here, you will find both the publicl
 ## Website
 The website is hosted under https://www.chrisryczke.com, where you can view the front-end side of my portfolio.
 
-## Compiling
-
+## Development
 This portfolio was made with [React](https://react.dev/) and [Node.js](https://nodejs.org).
 
 ### Setup
 To install Node.js, first run: `npm install`.
 
 Then, to test the website, run: `npm run dev` to run it locally on your browser.
+
+### Compiling
+To make a commit to the main repository, simply [commit](https://github.com/git-guides/git-commit) as per usual.
+
+For your changes to be visible online, run: `npm run deploy` to deploy changes to the gh-pages branch.
 
 ## Special Thanks
 BigBlue Terminal Font - [VileR](https://int10h.org/blog/2015/12/bigblue-terminal-oldschool-fixed-width-font/)
