@@ -20,7 +20,8 @@
             "image": "/img/projects/portfolio.jpg",
             "link": "https://www.chrisryczke.com",
             "desc": "The portfolio you're browsing now was developed by me!",
-            "smallDesc": "Not an ounce of the portfolio was made with a website designer. I have full control over the code.",
+            "smallDesc": "All code and graphics design was handled entirely by myself.",
+            "website": "https://www.chrisryczke.com",
             "github": "https://github.com/SnowmanSixtyFour/Portfolio"
         }
     ]

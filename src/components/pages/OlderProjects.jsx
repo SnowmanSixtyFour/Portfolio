@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
 
 // Images
-import GitHub from "../../../src/assets/img/github_button.webp";
+import Website from "../../../src/assets/img/website_button.webp";
 import ItchIo from "../../../src/assets/img/itchio_button.webp";
 import GameJolt from "../../../src/assets/img/gamejolt_button.webp";
 import Newgrounds from "../../../src/assets/img/newgrounds_button.webp";
 import Steam from "../../../src/assets/img/steam_button.webp";
+import LudumDare from "../../../src/assets/img/ludumdare_button.webp";
+import GitHub from "../../../src/assets/img/github_button.webp";
 
 function OlderProjects() {
   const [oldprojects, setOldProjects] = useState([]);
@@ -39,11 +41,13 @@ function OlderProjects() {
               <a href={old.link} target="_blank"> <img src={old.image} alt={old.name}/></a>
               <p>{old.desc}</p>
               <p className="smaller">{old.smallDesc}</p>
+              {old.website && (<a href={old.website} target="_blank"><img src={Website} width="40" height="40" alt="Website" title="Website"/></a>)}
               {old.steam && (<a href={old.steam} target="_blank"><img src={Steam} width="40" height="40" alt="Steam Page" title="Steam Page"/></a>)}
-              {old.github && (<a href={old.github} target="_blank"><img src={GitHub} width="40" height="40" alt="GitHub Repository" title="GitHub Repository"/></a>)}
               {old.itchio && (<a href={old.itchio} target="_blank"><img src={ItchIo} width="40" height="40" alt="itch.io Page" title="itch.io Page"/></a>)}
               {old.gamejolt && (<a href={old.gamejolt} target="_blank"><img src={GameJolt} width="40" height="40" alt="Game Jolt Page" title="Game Jolt Page"/></a>)}
               {old.newgrounds && (<a href={old.newgrounds} target="_blank"><img src={Newgrounds} width="40" height="40" alt="Newgrounds Page" title="Newgrounds Page"/></a>)}
+              {old.ludumdare && (<a href={old.ludumdare} target="_blank"><img src={LudumDare} width="40" height="40" alt="Ludum Dare Page" title="Ludum Dare Page"/></a>)}
+              {old.github && (<a href={old.github} target="_blank"><img src={GitHub} width="40" height="40" alt="GitHub Repository" title="GitHub Repository"/></a>)}
           </div>
         ))
       }

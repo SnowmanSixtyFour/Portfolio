@@ -2,6 +2,29 @@
     "old":
     [
         {
+            "id": "betweenthelines",
+            "name": "Between the Lines",
+            "image": "/img/projects/betweenthelines.jpg",
+            "link": "https://snowman64.itch.io/between-the-lines",
+            "desc": "Between the Lines is an indie game made for Mystery Game Jam 2026.",
+            "smallDesc": "Developed from the ground up, from April 7, 2026 - May 5, 2026.",
+            "github": "https://github.com/SnowmanSixtyFour/BetweenTheLines",
+            "itchio": "https://snowman64.itch.io/between-the-lines",
+            "gamejolt": "https://gamejolt.com/games/between-the-lines/1066244"
+        },
+        {
+            "id": "rentaltechbookingludumdare",
+            "name": "Rental-Tech Booking",
+            "image": "/img/projects/rentaltechbookingludumdare.jpg",
+            "link": "https://snowman64.itch.io/rental-tech-booking",
+            "desc": "Rental-Tech Booking is a short RPG developed in 72 hours.",
+            "smallDesc": "Originally developed entirely by two people, for Ludum Dare 60.",
+            "github": "https://github.com/SnowmanSixtyFour/RentalTechBooking",
+            "itchio": "https://snowman64.itch.io/rental-tech-booking",
+            "gamejolt": "https://gamejolt.com/games/Rental-Tech_Booking/1108350",
+            "ludumdare": "https://ldjam.com/events/ludum-dare/60/rental-tech-booking"
+        },
+        {
             "id": "bluebird64",
             "name": "Blue Bird 64",
             "image": "/img/projects/bluebird64.jpg",
@@ -23,17 +46,6 @@
             "github": "https://github.com/SnowmanSixtyFour/BlueBird64-x2",
             "itchio": "https://snowman64.itch.io/bluebird64-x2",
             "gamejolt": "https://gamejolt.com/games/bluebird64-x2/1070507"
-        },
-        {
-            "id": "betweenthelines",
-            "name": "Between the Lines",
-            "image": "/img/projects/betweenthelines.jpg",
-            "link": "https://snowman64.itch.io/between-the-lines",
-            "desc": "Between the Lines is an indie game made for Mystery Game Jam 2026.",
-            "smallDesc": "Developed from the ground up, from April 7, 2026 - May 5, 2026.",
-            "github": "https://github.com/SnowmanSixtyFour/BetweenTheLines",
-            "itchio": "https://snowman64.itch.io/between-the-lines",
-            "gamejolt": "https://gamejolt.com/games/between-the-lines/1066244"
         }
     ]
 }
